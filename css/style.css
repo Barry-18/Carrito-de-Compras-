@@ -1,0 +1,132 @@
+:root{
+    --Blanco:#F5FFFA;
+    --Rosa:#EA899A;
+    --Rojo:#FF0000;
+    --Amarillo: #FFCE00;
+    --Negro:#000;
+    --BlancoOscuro: #DCDCDC;
+    --Verde: #32CD32;
+    
+
+    --FuentePrincipal: 'Staatliches', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+}
+
+.footer{
+    background-color: var(--Amarillo);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto{
+    font-family: var(--Blanco);
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: var(--Blanco);
+    font-size:1.6rem;
+    line-height: 1.5;
+}  
+
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: var(--Rojo);
+    font-family: var(--BlancoOscuro);
+
+}
+
+h1{
+    font-size: 4rem; 
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+.header__logo{
+    margin:3rem 0;
+
+}
+
+.menu{
+    background-color: var(--Amarillo);
+    padding: 2 rem 1;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+
+.menu__cont{
+    font-family: var(--FuentePrincipal);
+    color:var(--Rojo);
+    font-size: 3rem;
+}
+
+.menu__cont:hover{
+    color:var(--Blanco);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media(min-width:768px){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+.producto{
+
+}
+.producto__imgen{
+
+}
+.producto__informacion{
+    
+}
+.producto__nombre{
+
+}
+.producto__precio{
+
+}
